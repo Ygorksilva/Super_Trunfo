@@ -135,7 +135,7 @@ int main() {
     } else {
         // caso os dois cheguem a 0, quem deu o último golpe vence
         printf("Ambos caíram, mas o último golpe decide...\n");
-        printf("%s venceu por último golpe!\n", turno == 0 ? "Jogador 2" : "Jogador 1");
+        printf("%s venceu por último golpe!\n", turno == 0 ? "jogador 2" : "Jogador 1");
     }
 
     return 0;
